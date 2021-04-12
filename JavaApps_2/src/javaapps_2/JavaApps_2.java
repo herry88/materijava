@@ -7,6 +7,7 @@ package javaapps_2;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
@@ -23,8 +24,19 @@ public class JavaApps_2 extends JFrame{
           setTitle(title);
           
           panel = getContentPane();
+          JButton tombol_0  = new JButton("Isi Nama Kamu");
           JButton tombol_1 = new JButton("Hello Java");
+//          JButton tombol_00 = new JButton("Hello Java ya");
+          JButton tombolC = new JButton(new ImageIcon("/home/ubuntu/NetBeansProjects/MateriJavaFundamental/JavaApps_2/src/images/tablet.jpg"));
+          JButton tombol_2 = new JButton("Arah Kiri");
+          JButton tombol_3 = new JButton("Arah Kanan");
+          
+          //arah tombol
+          panel.add(tombol_0, BorderLayout.NORTH);
           panel.add(tombol_1, BorderLayout.SOUTH);
+          panel.add(tombolC, BorderLayout.CENTER);
+          panel.add(tombol_3, BorderLayout.EAST);
+          panel.add(tombol_2, BorderLayout.WEST);
           
           //setMenampilan ui
           setVisible(true);
