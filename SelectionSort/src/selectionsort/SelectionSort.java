@@ -17,9 +17,10 @@ public class SelectionSort {
     public static void selectionSort(int[] arr){
         for(int i = 0; i < arr.length - 1; i++ ){
             int index = i;
+            
             for(int j = i + 1; j < arr.length; j++){
                 if(arr[j] < arr[index]){
-                    index = j; //mencari bilangan terkecil
+                     index = j; 
                 }
                 
             }
@@ -28,8 +29,18 @@ public class SelectionSort {
             arr[index] = arr[i];
             arr[i] = smallerNumber;
         }
-    
     }
+    
+    public static int linierSearch(int[] arr, int key){
+        for(int i =0; i < arr.length; i++){
+            if(arr[i] == key){
+                return i;
+            }
+            
+        }
+        return -1;
+    }
+    
     public static void main(String[] args) {
         // TODO code application logic here
         int[] arr1 = {9,14,23,2,3,43,11,58,22,40};
@@ -44,6 +55,9 @@ public class SelectionSort {
         for(int i : arr1){
             System.out.print(i + " ");
         }
+        
+        int key = 2;
+        System.out.println(key + "terdapat di index"+ " " + linierSearch(arr1, key));
     }
     
 }
