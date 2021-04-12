@@ -17,22 +17,22 @@ public class JavaApps {
     public static void main(String[] args) {
         // TODO code application logic here
 //        System.out.println("Hello World Java");
-//    int var1 = 50; 
-//    String var2 = "Herry Prasetyo ";
-//    double var3 = 0.2; 
-//    boolean var4 = true; 
-//    char var5 = 'A';
-//    int[] var6 = {1,2,3,4,5,6,7};
-//    
-//    System.out.println("Nama: " + var1);
-//    System.out.println("Angka : " + var2);
-//    System.out.println("Angka : " + var3);
-//    System.out.println("Value : " + var4);
-//    System.out.println("Char : " + var5);
-//    
-//        for(int i : var6){
-//            System.out.println(i + " ");
-//        }
+    int var1 = 50; 
+    String var2 = "Herry Prasetyo ";
+    double var3 = 0.2; 
+    boolean var4 = true; 
+    char var5 = 'A';
+    int[] var6 = {1,2,3,4,5,6,7};
+    
+    System.out.println("Nama: " + var1);
+    System.out.println("Angka : " + var2);
+    System.out.println("Angka : " + var3);
+    System.out.println("Value : " + var4);
+    System.out.println("Char : " + var5);
+    
+        for(int i : var6){
+            System.out.println(i + " ");
+        }
     
     
     
