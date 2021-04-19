@@ -29,6 +29,7 @@ public class JavaApps {
     System.out.println("Angka : " + var3);
     System.out.println("Value : " + var4);
     System.out.println("Char : " + var5);
+    System.out.println("Array Pertama" + var6[0]);
     
         for(int i : var6){
             System.out.println(i + " ");
